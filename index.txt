@@ -87,6 +87,8 @@ q
 17. 
 git checkout -b dev
 -Create git branch "dev"
+git push origin dev
+-Push "dev" branch to remote repository called origin in github.
 18. 
 git checkout dev 
 -Switch branche to "dev"
@@ -106,6 +108,7 @@ git commit
 press Esc and type :wq then  press Enter btn.
 Finally check git status. 
 git status 
+<<<<<<< HEAD
 21.
 git branch --merged 
 -All merged branch list
@@ -117,3 +120,7 @@ git btanch -D dev
 -Delete branch with name "dev". no matter it merged or not.
 git btanch -v 
 -Show all latest commit of all branches.
+=======
+
+
+>>>>>>> dev
