@@ -15,4 +15,8 @@ git log
 git config --global user.name "suvadip"
 git config --global user.email "suvadipmaiti5@gmail.com"
 git config --list
+
+git config user.name "smhub"
+git config user.email "smhubonline@gmail.com"
+git config --list
 -Git supports a command called git config that lets you get and set configuration variables that control all facets of how Git looks and operates. It is used to set Git configuration values on a global or local project level.
