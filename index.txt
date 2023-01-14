@@ -1,0 +1,7 @@
+GITHUB TUTORIAL
+1. 
+git init 
+-We can create a repository for blank and existing projects.To create a blank repository, open command line on your desired directory and run the init command.
+2.
+git add .
+-Git add command is a straight forward command. It adds files to the staging area. We can add single or multiple files at once in the staging area.
