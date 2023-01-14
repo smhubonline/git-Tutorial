@@ -90,3 +90,5 @@ git checkout dev
 19. 
 git rm -rf .git
 -remove git repository
+git branch 
+-show all branches
