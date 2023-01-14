@@ -5,3 +5,14 @@ git init
 2.
 git add .
 -Git add command is a straight forward command. It adds files to the staging area. We can add single or multiple files at once in the staging area.
+3.
+git commit -m "Commit message"
+-This command will not prompt the text editor.It is used to record the changes in the repository. It is the next command after the git add. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository. The -m option of commit command lets you to write the commit message on the command line. 
+4.
+git log
+-Git log command is one of the most usual commands of git. It is the most useful command for Git. Every time you need to check the history, you have to use the git log command. The basic git log command will display the most recent commits and the status of the head.
+5.
+git config --global user.name "suvadip"
+git config --global user.email "suvadipmaiti5@gmail.com"
+git config --list
+-Git supports a command called git config that lets you get and set configuration variables that control all facets of how Git looks and operates. It is used to set Git configuration values on a global or local project level.
