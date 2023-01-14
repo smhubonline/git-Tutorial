@@ -85,5 +85,5 @@ git log -p
 q 
 -to quit from commit list 
 17. 
-
--Create git branch
+git checkout -b dev
+-Create git branch "dev"
