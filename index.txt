@@ -84,6 +84,9 @@ git log -p
 -show all commit.
 q 
 -to quit from commit list 
-17. 
-
--Create git branch
+18. 
+git checkout dev 
+-Switch branche to "dev"
+19. 
+git rm -rf .git
+-remove git repository
