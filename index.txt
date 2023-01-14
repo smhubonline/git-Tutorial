@@ -52,3 +52,15 @@ git checkout .
 -Remove current changes from all files, return to previous commit.
 git checkout index.txt
 -Remove current changes from index.txt file
+11.
+ls -la 
+-Show all file where changes saved. (.git folder)
+12.
+git clone git@github.com:smhubonline/git-Tutorial.git
+-Clone git repository.In Git, cloning is the act of making a copy of any target repository. The target repository can be remote or local.
+git clone -b master git@github.com:smhubonline/git-Tutorial.git
+-Clone a specific brance "master"
+13. 
+touch .gitignore 
+-Create blank file.In Git, the term "ignore" is used to specify intentionally untracked files that Git should ignore. It doesn't affect the Files that already tracked by Git.
+Sometimes you don't want to send the files to Git service like GitHub. We can specify files in Git to ignore.
