@@ -1,4 +1,5 @@
 GITHUB TUTORIAL
+Working Phase->Staged Phase->Commit Phase
 1. 
 git init 
 -We can create a repository for blank and existing projects.To create a blank repository, open command line on your desired directory and run the init command.
@@ -38,3 +39,6 @@ Given permission to access pc data to github.
 9.
 git diff index.txt
 -Git diff is a command-line utility. It's a multiuse Git command. When it is executed, it runs a diff function on Git data sources. These data sources can be files, branches, commits, and more. It is used to show changes between commits, commit, and working tree, etc.
+
+git diff --staged index.txt
+-To show any changes in staged phase.
