@@ -64,3 +64,5 @@ git clone -b master git@github.com:smhubonline/git-Tutorial.git
 touch .gitignore 
 -Create blank file.In Git, the term "ignore" is used to specify intentionally untracked files that Git should ignore. It doesn't affect the Files that already tracked by Git.
 Sometimes you don't want to send the files to Git service like GitHub. We can specify files in Git to ignore.
+git rm --cached .env 
+-If .env file previously tracked and want to untracked as you put it in gitignore file later, use this command.
