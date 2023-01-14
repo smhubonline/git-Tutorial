@@ -28,7 +28,11 @@ git config --list
 -Git supports a command called git config that lets you get and set configuration variables that control all facets of how Git looks and operates. It is used to set Git configuration values on a global or local project level.
 6.
 git remote add origin git@github.com:smhubonline/git-Tutorial.git
--Add git origin. Linked project with github repository.
+-Add git origin. Linked project with github repository.This url remotely add with name origin. 
+git remote 
+-get remote name (ex- origin)
+git remote -v 
+-get remote url for push and pull.
 7.
 git push -u origin main
 pushed the local content on the main branch of the remote location.
@@ -50,8 +54,10 @@ git diff --staged index.txt
 10.
 git checkout .
 -Remove current changes from all files, return to previous commit.
-git checkout index.txt
+git checkout -- index.txt
 -Remove current changes from index.txt file
+git checkout -f 
+-Remove current changes from all files, return to previous commit.
 11.
 ls -la 
 -Show all file where changes saved. (.git folder)
@@ -66,3 +72,18 @@ touch .gitignore
 Sometimes you don't want to send the files to Git service like GitHub. We can specify files in Git to ignore.
 git rm --cached .env 
 -If .env file previously tracked and want to untracked as you put it in gitignore file later, use this command.
+14.
+git restore --staged index.txt 
+-Unstaged index.txt file if staged before.
+15.
+config --global alias.st status 
+git status -> git st
+change short cut command, status to st.
+16. 
+git log -p 
+-show all commit.
+q 
+-to quit from commit list 
+17. 
+
+-Create git branch
