@@ -20,3 +20,12 @@ git config user.name "smhub"
 git config user.email "smhubonline@gmail.com"
 git config --list
 -Git supports a command called git config that lets you get and set configuration variables that control all facets of how Git looks and operates. It is used to set Git configuration values on a global or local project level.
+6.
+git remote add origin git@github.com:smhubonline/git-Tutorial.git
+-Add git origin. Linked project with github repository.
+7.
+git push -u origin main
+pushed the local content on the main branch of the remote location.
+8.
+Create SSH KEY
+https://github.com/settings/keys
