@@ -84,7 +84,9 @@ git log -p
 -show all commit.
 q 
 -to quit from commit list 
-<<<<<<< HEAD
+17. 
+git checkout -b dev
+-Create git branch "dev"
 18. 
 git checkout dev 
 -Switch branche to "dev"
@@ -93,8 +95,17 @@ git rm -rf .git
 -remove git repository
 git branch 
 -show all branches
-=======
-17. 
-git checkout -b dev
--Create git branch "dev"
->>>>>>> dev
+20.
+Assume you are in master branch.
+git merge dev 
+-Current branch (master) merge with dev. Check in vs-code which changes you want. 
+git status 
+-then check git status. If both branch have different files. want to merge in master.
+git add . 
+git commit 
+press Esc and type :wq then  press Enter btn.
+Finally check git status. 
+git status 
+
+
+
