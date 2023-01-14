@@ -5,6 +5,11 @@ git init
 -We can create a repository for blank and existing projects.To create a blank repository, open command line on your desired directory and run the init command.
 2.
 git add .
+-Stages new and modified files, without deleted 
+git add -A
+-Stages all 
+git add -u 
+-Stages modified and deleted , without new
 -Git add command is a straight forward command. It adds files to the staging area. We can add single or multiple files at once in the staging area.
 3.
 git commit -m "Commit message"
@@ -42,3 +47,8 @@ git diff index.txt
 
 git diff --staged index.txt
 -To show any changes in staged phase.
+10.
+git checkout .
+-Remove current changes from all files, return to previous commit.
+git checkout index.txt
+-Remove current changes from index.txt file
