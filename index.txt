@@ -108,7 +108,6 @@ git commit
 press Esc and type :wq then  press Enter btn.
 Finally check git status. 
 git status 
-<<<<<<< HEAD
 21.
 git branch --merged 
 -All merged branch list
@@ -120,7 +119,5 @@ git btanch -D dev
 -Delete branch with name "dev". no matter it merged or not.
 git btanch -v 
 -Show all latest commit of all branches.
-=======
 
 
->>>>>>> dev
