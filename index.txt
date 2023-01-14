@@ -29,3 +29,12 @@ pushed the local content on the main branch of the remote location.
 8.
 Create SSH KEY
 https://github.com/settings/keys
+ssh-keygen -t ed25519 -C "smhubonline@gmail.com"
+cat /c/Users/User/.ssh/id_ed25519.pub
+This code : ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM0J6m4mr25vLgCYFwiA8YszCzTIUQjE5w4b5TdyfGbg smhubonline@gmail.com
+paste here : https://github.com/settings/ssh/new
+Now you can push your code to github. SSH key use to connect with pc to remote github account.
+Given permission to access pc data to github.
+9.
+git diff index.txt
+-Git diff is a command-line utility. It's a multiuse Git command. When it is executed, it runs a diff function on Git data sources. These data sources can be files, branches, commits, and more. It is used to show changes between commits, commit, and working tree, etc.
